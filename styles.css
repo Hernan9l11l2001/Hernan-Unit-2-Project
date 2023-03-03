@@ -1,0 +1,47 @@
+
+/* The code on lines 3-7 makes the background of the header black and the text of the title of the webpage white. Change this to match what you want for your website! */
+header {
+    background-color: black;
+    color: white;
+    padding: 128px 16px;
+}
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+    background-color: black;
+}
+h1{
+    color:White;
+}
+img{
+    width:800px;
+}        
+.item1{
+    margin:1px;
+    padding:30px;
+    border:2px solid black;
+    background: grey;}
+
+  .Section1{
+display: flex;
+justify-content: center;}
+
+.item2{
+    margin:1px;
+    padding:30px;
+    border:2px solid black;
+    background: grey;}
+
+.Section2{
+display: flex;
+justify-content: flex-end;}
+
+.item3{
+    margin:1px;
+    padding:75px;
+    border:2px solid black;
+    background: grey;}
+
+.Section3{
+display: flex;
+justify-content: space-around;}
